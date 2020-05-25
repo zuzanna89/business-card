@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(cherry-tree.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  background: #250F10;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+}
+
+.person {
+  display: flex;
+  align-items: flex-start;
+}
+
+.person__description {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0px;
+  color:#FFFFFF;
+}
+.person__info {
+  margin-bottom: 26px;
+}
+.person__name {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+  color:#FFFFFF;
+}
+
+.person__picture {
+  margin-right: 32px;
+}
+.person__position {
+  font-size: 18px;
+  font-weight: normal;
+  color: #fef3fd;
+  margin: 0;
+  font-style: italic;
+}
+.special {
+  color: #F4ACB7;
+  font-weight: normal;
+}
+.person__link {
+  color: #e6beae;
+}
+.person__description--with-margin {
+  margin-top: 22px;
+}
